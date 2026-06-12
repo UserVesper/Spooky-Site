@@ -34,7 +34,7 @@
 
 ```bash
 git clone <URL_DO_REPO>
-cd pcs3643-grupo7-Spooky
+cd Spooky
 ```
 
 2. Instale as dependências do backend:
