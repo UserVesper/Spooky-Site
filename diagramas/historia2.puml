@@ -1,0 +1,16 @@
+@startuml
+actor Usuario
+participant TelaGraficos
+participant GraficoDensidade
+participant GraficoFiltros
+
+' Fluxo: Densidade por região
+Usuario -> TelaGraficos: selecionarGraficoDensidade()
+TelaGraficos -> GraficoDensidade: gerarGrafico()
+GraficoDensidade --> Usuario: exibirGraficoDensidade()
+
+' Fluxo: Filtros por tipo de ponto
+Usuario -> TelaGraficos: selecionarGraficoFiltros()
+TelaGraficos -> GraficoFiltros: gerarGraficoComFiltros()
+GraficoFiltros --> Usuario: exibirGraficoFiltrado()
+@enduml

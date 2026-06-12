@@ -1,0 +1,33 @@
+@startuml
+actor Usuario
+participant TelaInicial
+participant TelaMapaLocais
+participant TelaMapaCloropleth
+participant TelaGraficos
+participant MenuLateral
+
+' Fluxo: Mapa de Locais
+Usuario -> TelaInicial: clicarMapaDeLocais()
+TelaInicial -> TelaMapaLocais: abrir()
+TelaMapaLocais --> Usuario: exibirMapa()
+Usuario -> TelaMapaLocais: voltar()
+TelaMapaLocais -> TelaInicial: exibirTelaInicial()
+
+' Fluxo: Mapa Cloroplético
+Usuario -> TelaInicial: clicarMapaCloropleth()
+TelaInicial -> TelaMapaCloropleth: abrir()
+TelaMapaCloropleth --> Usuario: exibirMapa()
+Usuario -> TelaMapaCloropleth: voltar()
+TelaMapaCloropleth -> TelaInicial: exibirTelaInicial()
+
+' Fluxo: Gráficos
+Usuario -> TelaInicial: clicarGraficos()
+TelaInicial -> TelaGraficos: abrir()
+TelaGraficos --> Usuario: exibirGraficos()
+Usuario -> TelaGraficos: voltar()
+TelaGraficos -> TelaInicial: exibirTelaInicial()
+
+' Fluxo: Menu Lateral
+Usuario -> MenuLateral: clicarIcone()
+MenuLateral -> TelaInicial: abrirPaginaCadastroOuEnvioRelatos()
+@enduml

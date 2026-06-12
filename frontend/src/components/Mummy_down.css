@@ -1,0 +1,14 @@
+.mummy_down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;                
+  pointer-events: none;     
+}
+
+.mummy_down-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

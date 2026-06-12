@@ -1,0 +1,219 @@
+.section#mapa {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;    
+  justify-content: space-between;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 150px;  
+  padding-bottom: 150px; 
+}
+
+.section#mapa .leaflet-container {
+  width: 80%;
+  max-width: 900px;
+  height: calc(100vh - 300px); 
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.leaflet-routing-container {
+  background: white;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.side-buttons,
+.toggle-buttons,
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.side-buttons {
+  background-color: #222;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 140px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  max-height: calc(5 * 48px); 
+  overflow-y: auto;
+}
+
+.side-buttons::-webkit-scrollbar {
+  width: 6px;
+}
+
+.side-buttons::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.side-buttons::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+.side-buttons h4 {
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+.side-buttons button,
+.toggle-buttons button,
+.button-group button {
+  padding: 0.6rem 1.2rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.side-buttons button:hover,
+.toggle-buttons button:hover,
+.button-group button:hover {
+  background-color: #444;
+}
+
+.side-buttons button.active,
+.toggle-buttons button.active,
+.button-group button.active {
+  background-color: #8884d8;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(136,132,216,0.7);
+}
+
+
+.button-group.horizontal {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+
+@media (max-width: 1024px) {
+  .map-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-buttons {
+    flex-direction: row;
+    justify-content: center;
+    min-width: unset;
+    max-height: calc(5 * 48px);
+  }
+
+  .leaflet-map {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.route-status-banner {
+    padding: 5px 10px;        
+    font-size: 1em;           
+    font-weight: bold;
+    
+    position: fixed; 
+    bottom: 20px;            
+    left: 50%; 
+    transform: translateX(-50%); 
+    
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #FFC107;          
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    
+    z-index: 9999;           
+    pointer-events: none;    
+}
+
+.leaflet-routing-container {
+  background: rgba(20, 20, 20, 0.85) !important;
+  padding: 14px !important;
+  border-radius: 14px !important;
+  font-family: "Inter", sans-serif !important;
+  color: #eee !important;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  max-width: 280px;
+}
+
+.leaflet-routing-geocoders {
+  display: none !important;
+}
+
+.leaflet-routing-container h2 {
+  font-size: 16px !important;
+  color: #fff !important;
+  margin-bottom: 10px !important;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+
+.leaflet-routing-alt {
+  background: rgba(255, 255, 255, 0.03) !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  margin-top: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.leaflet-routing-alt tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.leaflet-routing-alt tr:last-child {
+  border-bottom: none;
+}
+
+.leaflet-routing-alt td {
+  color: #ddd !important;
+  padding: 6px 4px !important;
+  font-size: 13px;
+}
+
+.leaflet-routing-alt h3 {
+  margin: 6px 0 10px 0 !important;
+  font-size: 14px !important;
+  color: #ccc !important;
+}
+
+.leaflet-routing-container .leaflet-routing-collapse-btn {
+  background: rgba(255,255,255,0.1) !important;
+  border-radius: 6px !important;
+  padding: 3px 8px !important;
+  color: #fff !important;
+  border: none !important;
+  transition: 0.2s;
+}
+.leaflet-routing-container .leaflet-routing-collapse-btn:hover {
+  background: rgba(255,255,255,0.3) !important;
+}

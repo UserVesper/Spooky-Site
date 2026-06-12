@@ -1,0 +1,20 @@
+@startuml
+actor Usuario
+participant TelaMapaCloropleth
+participant FiltroTipoPonto
+participant InformacoesBairro
+
+' Fluxo: Abrir mapa cloroplético
+Usuario -> TelaMapaCloropleth: abrirMapa()
+TelaMapaCloropleth --> Usuario: exibirMapa()
+
+' Fluxo: Mostrar densidade ao passar o mouse
+Usuario -> TelaMapaCloropleth: passarMouseEmBairro()
+TelaMapaCloropleth -> InformacoesBairro: consultarDensidade()
+InformacoesBairro --> Usuario: exibirInformacaoBairro()
+
+' Fluxo: Filtrar por tipo de ponto
+Usuario -> TelaMapaCloropleth: selecionarFiltroTipoPonto()
+TelaMapaCloropleth -> FiltroTipoPonto: aplicarFiltro()
+FiltroTipoPonto --> Usuario: atualizarMapa()
+@enduml

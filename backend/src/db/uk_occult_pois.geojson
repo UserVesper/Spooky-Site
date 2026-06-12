@@ -1,0 +1,1253 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.7465349,
+                    52.4144716
+                ]
+            },
+            "properties": {
+                "addr:city": "Thetford",
+                "addr:housenumber": "2",
+                "addr:postcode": "IP24 3AA",
+                "addr:street": "Bridge Street",
+                "disused:office": "estate_agent",
+                "name": "Instinctively Mystical",
+                "not:addr:postcode": "IP24 3BL",
+                "old_name": "Lawsons",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1000831,
+                    51.4530249
+                ]
+            },
+            "properties": {
+                "name": "The Illusioneer",
+                "shop": "magic",
+                "website": "https://www.theillusioneer.co.uk/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.179815,
+                    55.9512983
+                ]
+            },
+            "properties": {
+                "addr:city": "Edinburgh",
+                "addr:housenumber": "154",
+                "addr:street": "Canongate",
+                "check_date": "2024-08-07",
+                "check_date:opening_hours": "2023-06-13",
+                "name": "The Wyrd Shop",
+                "opening_hours:signed": "no",
+                "payment:cash": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "shop": "esoteric",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.2196266,
+                    55.9460044
+                ]
+            },
+            "properties": {
+                "addr:city": "Edinburgh",
+                "addr:housenumber": "14",
+                "addr:street": "Haymarket Terrace",
+                "check_date": "2025-06-12",
+                "name": "Wonder & Co.",
+                "shop": "magic"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.551868,
+                    54.5250502
+                ]
+            },
+            "properties": {
+                "addr:city": "Darlington",
+                "addr:housenumber": "3",
+                "addr:postcode": "DL1 1PB",
+                "addr:street": "Stonebridge",
+                "name": "Black Cat",
+                "old_name": "Babycare",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2051223,
+                    50.594602
+                ]
+            },
+            "properties": {
+                "addr:city": "Ventnor",
+                "addr:country": "GB",
+                "addr:housenumber": "17",
+                "addr:street": "Pier Street",
+                "contact:facebook": "https://www.facebook.com/theathanor/",
+                "level": "0",
+                "name": "The Athanor",
+                "old_name": "Isle of Vapes",
+                "shop": "esoteric",
+                "website": "https://www.theathanor.top/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7156278,
+                    51.1476979
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:housenumber": "36",
+                "addr:postcode": "BA6 9DX",
+                "addr:street": "High Street",
+                "name": "Naqs Histoire",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1255006,
+                    51.5091014
+                ]
+            },
+            "properties": {
+                "level": "-1",
+                "name": "Davenports Magic Shop",
+                "note": "Approximate location, is in one of the subways linking to Charing Cross Underground Station (near exit 8)",
+                "shop": "magic"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1921746,
+                    55.6511891
+                ]
+            },
+            "properties": {
+                "addr:city": "Peebles",
+                "addr:housenumber": "77",
+                "addr:street": "High Street",
+                "check_date": "2024-04-09",
+                "dog": "yes",
+                "name": "House of Gaia",
+                "opening_hours": "Mo-Sa 10:00-17:00; Su 12:00-16:00",
+                "shop": "esoteric",
+                "website": "https://houseofgaia.co.uk/",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7166667,
+                    51.1477468
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:street": "High Street",
+                "name": "The Goddess and the Green Man",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7165661,
+                    51.1477594
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:street": "High Street",
+                "name": "Dilliway & Dilliway",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7164293,
+                    51.1477805
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:street": "High Street",
+                "disused:amenity": "bank",
+                "name": "White Rabbit",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7163307,
+                    51.147791
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:street": "High Street",
+                "name": "Crystals",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7155288,
+                    51.1477153
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:street": "High Street",
+                "name": "Enlightenment",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7154563,
+                    51.1477254
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:street": "High Street",
+                "name": "Natural Earthling",
+                "opening_hours": "Mo-Th 10:30-17:00; Fr,Sa 10:30-17:30; Su 11:00-17:00",
+                "shop": "esoteric",
+                "website": "http://www.naturalearthling.co.uk/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7137531,
+                    51.1481393
+                ]
+            },
+            "properties": {
+                "addr:city": "Glastonbury",
+                "addr:housenumber": "51",
+                "addr:postcode": "BA6 9DS",
+                "addr:street": "High Street",
+                "name": "The Coven",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.0243497,
+                    51.3600643
+                ]
+            },
+            "properties": {
+                "addr:city": "Whitstable",
+                "addr:housenumber": "7a",
+                "addr:postcode": "CT5 1AP",
+                "addr:street": "High Street",
+                "check_date": "2024-09-08",
+                "name": "Amazing Grace",
+                "opening_hours": "Mo-Su 11:00-16:00",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1265151,
+                    51.5150352
+                ]
+            },
+            "properties": {
+                "entrance": "main"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0012678,
+                    51.4841802
+                ]
+            },
+            "properties": {
+                "addr:city": "London",
+                "addr:housenumber": "97",
+                "addr:postcode": "SE10 9TS",
+                "addr:street": "Trafalgar Road",
+                "check_date": "2024-10-17",
+                "contact:facebook": "StepStonesGreenwich",
+                "contact:instagram": "steppingstonesgreenwich",
+                "contact:twitter": "SteppingStonesG",
+                "contact:whatsapp": "07554 535415",
+                "description": "Essential oils, books, healing, tarot, psychic readings & astrology",
+                "email": "store@steppingstonesgreenwich.co.uk",
+                "mobile": "+44 7554 535415",
+                "name": "Stepping Stones",
+                "opening_hours": "Mo-Su 10:00-18:45",
+                "phone": "+44 20 8853 2733",
+                "shop": "esoteric",
+                "start_date": "1993",
+                "website": "https://www.steppingstonesgreenwich.co.uk/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0756083,
+                    51.899218
+                ]
+            },
+            "properties": {
+                "level": "1",
+                "name": "Crystals",
+                "opening_hours": "Mo-Sa 09:30-17:30; Su 10:30-16:30",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5188759,
+                    52.7011122
+                ]
+            },
+            "properties": {
+                "name": "NChanted",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.0844317,
+                    52.4148395
+                ]
+            },
+            "properties": {
+                "addr:city": "Aberystwyth",
+                "addr:housenumber": "15",
+                "addr:street": "Y Stryd Fawr / Great Darkgate Street",
+                "contact:facebook": "https://www.facebook.com/tammyaloe",
+                "contact:instagram": "https://www.instagram.com/mysticearthshop",
+                "name": "Mystic Earth",
+                "phone": "+44 1970 561133",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7524091,
+                    52.7080207
+                ]
+            },
+            "properties": {
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7180596,
+                    51.1469527
+                ]
+            },
+            "properties": {
+                "name": "Happy Glastonbury",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7184224,
+                    51.147603
+                ]
+            },
+            "properties": {
+                "name": "Olive & Gracie",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7184981,
+                    51.1470004
+                ]
+            },
+            "properties": {
+                "name": "Wyrd Raven",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7180976,
+                    51.1470559
+                ]
+            },
+            "properties": {
+                "name": "Portal",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7186787,
+                    51.1476655
+                ]
+            },
+            "properties": {
+                "name": "The Crystal Man",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7180707,
+                    51.1474916
+                ]
+            },
+            "properties": {
+                "name": "Imaginarium",
+                "opening_hours": "Mo-Sa 11:00-16:00; Su 11:00-15:00",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7163566,
+                    51.1478594
+                ]
+            },
+            "properties": {
+                "name": "dandeliondreamz",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.713838,
+                    51.1479777
+                ]
+            },
+            "properties": {
+                "name": "Halo Avalon",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7125783,
+                    51.1481382
+                ]
+            },
+            "properties": {
+                "name": "Figaro de Montmartre",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7128271,
+                    51.1481037
+                ]
+            },
+            "properties": {
+                "disused:amenity": "pub",
+                "name": "The Wonky Broomstick",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0701664,
+                    54.365731
+                ]
+            },
+            "properties": {
+                "addr:postcode": "LA21 8EW",
+                "addr:street": "Lake Road",
+                "addr:unit": "4b",
+                "name": "Sacred Essence Coniston",
+                "shop": "esoteric",
+                "website": "https://www.sacredessence.co.uk/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6201769,
+                    53.4576788
+                ]
+            },
+            "properties": {
+                "name": "Pierce & Love",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3122896,
+                    54.5646839
+                ]
+            },
+            "properties": {
+                "name": "Once Upon A Dream",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -1.4574699,
+                        53.3834242
+                    ],
+                    [
+                        -1.4575081,
+                        53.383418
+                    ],
+                    [
+                        -1.4574825,
+                        53.3833616
+                    ],
+                    [
+                        -1.4575226,
+                        53.3833552
+                    ],
+                    [
+                        -1.4576331,
+                        53.3833373
+                    ],
+                    [
+                        -1.4576867,
+                        53.3834556
+                    ],
+                    [
+                        -1.457498,
+                        53.3834861
+                    ],
+                    [
+                        -1.4574699,
+                        53.3834242
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Sheffield",
+                "addr:housenumber": "82",
+                "addr:postcode": "S2 5TG",
+                "addr:street": "Broad Street",
+                "building": "house",
+                "email": "russell@magick2go.com",
+                "name": "Magick Enterprises",
+                "phone": "+44 114 2760482",
+                "shop": "magic",
+                "website": "https://www.magick2go.com/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.1264856,
+                        51.5150139
+                    ],
+                    [
+                        -0.1263776,
+                        51.5150739
+                    ],
+                    [
+                        -0.1264177,
+                        51.5151026
+                    ],
+                    [
+                        -0.1264284,
+                        51.5151104
+                    ],
+                    [
+                        -0.1265404,
+                        51.5150535
+                    ],
+                    [
+                        -0.1265151,
+                        51.5150352
+                    ],
+                    [
+                        -0.1264856,
+                        51.5150139
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "London",
+                "addr:housenumber": "78",
+                "addr:postcode": "WC2H 9PA",
+                "addr:street": "Neal Street",
+                "level": "0",
+                "name": "The Astrology Shop",
+                "opening_hours": "Mo-Fr 11:00-18:00; Sa 11:00-19:00; Su 11:00-18:00",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+44 20 7813 3051",
+                "shop": "esoteric",
+                "website": "https://www.londonastrology.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.110621,
+                        51.5217994
+                    ],
+                    [
+                        -0.1105879,
+                        51.5218949
+                    ],
+                    [
+                        -0.1105129,
+                        51.5218852
+                    ],
+                    [
+                        -0.1105332,
+                        51.5218424
+                    ],
+                    [
+                        -0.1105157,
+                        51.5218424
+                    ],
+                    [
+                        -0.1105333,
+                        51.5218025
+                    ],
+                    [
+                        -0.1105794,
+                        51.5218085
+                    ],
+                    [
+                        -0.1105835,
+                        51.521794
+                    ],
+                    [
+                        -0.110621,
+                        51.5217994
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "London",
+                "addr:housenumber": "89",
+                "addr:postcode": "EC1R 5BX",
+                "addr:street": "Clerkenwell Road",
+                "check_date": "2025-09-10",
+                "level": "0",
+                "name": "International Magic",
+                "shop": "magic",
+                "website": "https://www.internationalmagic.com/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1.2957629,
+                        52.6299759
+                    ],
+                    [
+                        1.2957707,
+                        52.6299093
+                    ],
+                    [
+                        1.2956417,
+                        52.6299005
+                    ],
+                    [
+                        1.2956357,
+                        52.6299697
+                    ],
+                    [
+                        1.2957629,
+                        52.6299759
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Norwich",
+                "addr:housenumber": "2",
+                "addr:postcode": "NR2 1AD",
+                "addr:street": "Saint Andrews Hill",
+                "building": "retail",
+                "check_date": "2024-06-09",
+                "name": "Inannas Festival",
+                "ref:GB:uprn": "200004372267;200004358675;200004353912",
+                "shop": "magic",
+                "website": "http://www.inannasfestival.com/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1.7544023,
+                        52.4780503
+                    ],
+                    [
+                        1.7545806,
+                        52.4780042
+                    ],
+                    [
+                        1.7545485,
+                        52.4779625
+                    ],
+                    [
+                        1.7543604,
+                        52.4780056
+                    ],
+                    [
+                        1.7544023,
+                        52.4780503
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Lowestoft",
+                "addr:housenumber": "152",
+                "addr:postcode": "NR32 1HB",
+                "addr:street": "London Road North",
+                "building": "retail",
+                "name": "Annatar",
+                "shop": "esoteric",
+                "source": "survey;aerial imagery"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1.7557762,
+                        52.481144
+                    ],
+                    [
+                        1.7557787,
+                        52.4811083
+                    ],
+                    [
+                        1.7559568,
+                        52.4810835
+                    ],
+                    [
+                        1.7559568,
+                        52.4811386
+                    ],
+                    [
+                        1.7557762,
+                        52.481144
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Lowestoft",
+                "addr:housenumber": "74",
+                "addr:postcode": "NR32 1XN",
+                "addr:street": "High Street",
+                "building": "retail",
+                "name": "Winkel's Emporium",
+                "shop": "esoteric",
+                "source": "survey;aerial imagery"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -4.0566147,
+                        51.0808538
+                    ],
+                    [
+                        -4.0566185,
+                        51.0808875
+                    ],
+                    [
+                        -4.056717,
+                        51.080883
+                    ],
+                    [
+                        -4.0567082,
+                        51.0808494
+                    ],
+                    [
+                        -4.0566147,
+                        51.0808538
+                    ]
+                ]
+            },
+            "properties": {
+                "level": "0",
+                "name": "The Crystal Witch",
+                "shop": "esoteric"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -1.4576867,
+                                53.3834556
+                            ],
+                            [
+                                -1.4576331,
+                                53.3833373
+                            ],
+                            [
+                                -1.4575226,
+                                53.3833552
+                            ],
+                            [
+                                -1.4574825,
+                                53.3833616
+                            ],
+                            [
+                                -1.4575081,
+                                53.383418
+                            ],
+                            [
+                                -1.4574699,
+                                53.3834242
+                            ],
+                            [
+                                -1.457498,
+                                53.3834861
+                            ],
+                            [
+                                -1.4576867,
+                                53.3834556
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Sheffield",
+                "addr:housenumber": "82",
+                "addr:postcode": "S2 5TG",
+                "addr:street": "Broad Street",
+                "building": "house",
+                "email": "russell@magick2go.com",
+                "name": "Magick Enterprises",
+                "phone": "+44 114 2760482",
+                "shop": "magic",
+                "website": "https://www.magick2go.com/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -0.1265404,
+                                51.5150535
+                            ],
+                            [
+                                -0.1265151,
+                                51.5150352
+                            ],
+                            [
+                                -0.1264856,
+                                51.5150139
+                            ],
+                            [
+                                -0.1263776,
+                                51.5150739
+                            ],
+                            [
+                                -0.1264177,
+                                51.5151026
+                            ],
+                            [
+                                -0.1264284,
+                                51.5151104
+                            ],
+                            [
+                                -0.1265404,
+                                51.5150535
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "London",
+                "addr:housenumber": "78",
+                "addr:postcode": "WC2H 9PA",
+                "addr:street": "Neal Street",
+                "level": "0",
+                "name": "The Astrology Shop",
+                "opening_hours": "Mo-Fr 11:00-18:00; Sa 11:00-19:00; Su 11:00-18:00",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+44 20 7813 3051",
+                "shop": "esoteric",
+                "website": "https://www.londonastrology.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -0.110621,
+                                51.5217994
+                            ],
+                            [
+                                -0.1105835,
+                                51.521794
+                            ],
+                            [
+                                -0.1105794,
+                                51.5218085
+                            ],
+                            [
+                                -0.1105333,
+                                51.5218025
+                            ],
+                            [
+                                -0.1105157,
+                                51.5218424
+                            ],
+                            [
+                                -0.1105332,
+                                51.5218424
+                            ],
+                            [
+                                -0.1105129,
+                                51.5218852
+                            ],
+                            [
+                                -0.1105879,
+                                51.5218949
+                            ],
+                            [
+                                -0.110621,
+                                51.5217994
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "London",
+                "addr:housenumber": "89",
+                "addr:postcode": "EC1R 5BX",
+                "addr:street": "Clerkenwell Road",
+                "check_date": "2025-09-10",
+                "level": "0",
+                "name": "International Magic",
+                "shop": "magic",
+                "website": "https://www.internationalmagic.com/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                1.2956357,
+                                52.6299697
+                            ],
+                            [
+                                1.2956417,
+                                52.6299005
+                            ],
+                            [
+                                1.2957707,
+                                52.6299093
+                            ],
+                            [
+                                1.2957629,
+                                52.6299759
+                            ],
+                            [
+                                1.2956357,
+                                52.6299697
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Norwich",
+                "addr:housenumber": "2",
+                "addr:postcode": "NR2 1AD",
+                "addr:street": "Saint Andrews Hill",
+                "building": "retail",
+                "check_date": "2024-06-09",
+                "name": "Inannas Festival",
+                "ref:GB:uprn": "200004372267;200004358675;200004353912",
+                "shop": "magic",
+                "website": "http://www.inannasfestival.com/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                1.7543604,
+                                52.4780056
+                            ],
+                            [
+                                1.7545485,
+                                52.4779625
+                            ],
+                            [
+                                1.7545806,
+                                52.4780042
+                            ],
+                            [
+                                1.7544023,
+                                52.4780503
+                            ],
+                            [
+                                1.7543604,
+                                52.4780056
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Lowestoft",
+                "addr:housenumber": "152",
+                "addr:postcode": "NR32 1HB",
+                "addr:street": "London Road North",
+                "building": "retail",
+                "name": "Annatar",
+                "shop": "esoteric",
+                "source": "survey;aerial imagery"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                1.7557762,
+                                52.481144
+                            ],
+                            [
+                                1.7557787,
+                                52.4811083
+                            ],
+                            [
+                                1.7559568,
+                                52.4810835
+                            ],
+                            [
+                                1.7559568,
+                                52.4811386
+                            ],
+                            [
+                                1.7557762,
+                                52.481144
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "addr:city": "Lowestoft",
+                "addr:housenumber": "74",
+                "addr:postcode": "NR32 1XN",
+                "addr:street": "High Street",
+                "building": "retail",
+                "name": "Winkel's Emporium",
+                "shop": "esoteric",
+                "source": "survey;aerial imagery"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -4.056717,
+                                51.080883
+                            ],
+                            [
+                                -4.0567082,
+                                51.0808494
+                            ],
+                            [
+                                -4.0566147,
+                                51.0808538
+                            ],
+                            [
+                                -4.0566185,
+                                51.0808875
+                            ],
+                            [
+                                -4.056717,
+                                51.080883
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "level": "0",
+                "name": "The Crystal Witch",
+                "shop": "esoteric"
+            }
+        }
+    ]
+}

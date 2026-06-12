@@ -1,0 +1,92 @@
+@startuml
+' Classes de usuários
+class Usuario {
+    - nome: String
+    - email: String
+    + login()
+    + navegar()
+}
+
+class Administrador {
+    + adicionarPonto()
+    + removerPonto()
+}
+
+class Visitante {
+    + visualizarMapa()
+    + visualizarGrafico()
+}
+
+Usuario <|-- Administrador
+Usuario <|-- Visitante
+
+' Classes de telas
+class Tela {
+    + abrir()
+    + fechar()
+}
+
+class TelaInicial {
+    + mostrarMenu()
+    + redirecionarTelaMapa()
+    + redirecionarTelaGraficos()
+    + redirecionarTelaExtra()
+}
+
+class TelaMapa {
+    + exibirMapa()
+    + aplicarFiltro(tipoPonto: String)
+}
+
+class TelaGraficos {
+    + exibirGrafico()
+    + aplicarFiltro(tipoPonto: String)
+}
+
+class TelaExtra {
+    + exibirConteudo()
+}
+
+Tela <|-- TelaInicial
+Tela <|-- TelaMapa
+Tela <|-- TelaGraficos
+Tela <|-- TelaExtra
+
+' Menu
+class Menu {
+    + clicarOpcao(opcao: String)
+}
+
+TelaInicial --> Menu
+
+' Mapas e pontos
+class Mapa {
+    + exibirPontos()
+    + filtrarPontos(tipo: String)
+}
+
+class PontoInteresse {
+    - nome: String
+    - tipo: String
+    - coordenadas: String
+}
+
+Mapa --> PontoInteresse
+TelaMapa --> Mapa
+
+' Gráficos
+class Grafico {
+    - tipo: String
+    + gerarDados()
+    + exibir()
+}
+
+TelaGraficos --> Grafico
+
+' Relação Usuário <-> Tela
+Usuario --> TelaInicial
+Usuario --> TelaMapa
+Usuario --> TelaGraficos
+Usuario --> TelaExtra
+
+@enduml
