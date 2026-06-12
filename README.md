@@ -7,78 +7,88 @@
 - **Funcionalidades principais**:
   - Visualização de POIs no mapa (mapas simples, de calor, coropléticos)
 
-  ## ⚙️ Requisitos de Instalação (Local)
-  - **Node.js**: >= 18
-  - **npm**: >= 9 ou **yarn** >= 3
-  - **MongoDB**: >= 6 (local ou Atlas)
-  - **Git**: para clonar o repositório
+## Contribuição
 
-  ***
+- **Rodrigo Galvez**: https://github.com/UserVesper
+- **Gabriel Chaves**: https://github.com/gabrielc02
+- **Ruan Machado**
 
-  ## 🎨 Protótipo da Interface
-  - **Figma**: https://www.figma.com/proto/NC2dMRqfuHHT8kUk7fj8GD/Spooky-Eng-Soft?node-id=1-6&t=6OfcjZrNVv6OHTPu-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6
+## ⚙️ Requisitos de Instalação (Local)
 
-  ***
+- **Node.js**: >= 18
+- **npm**: >= 9 ou **yarn** >= 3
+- **MongoDB**: >= 6 (local ou Atlas)
+- **Git**: para clonar o repositório
 
-  ## 🛠️ Inicializando o Projeto (Local)
-  1. Clone o repositório:
+---
 
-  ```bash
-  git clone <URL_DO_REPO>
-  cd pcs3643-grupo7-Spooky
-  ```
+## 🎨 Protótipo da Interface
 
-  2. Instale as dependências do backend:
+- **Figma**: https://www.figma.com/proto/NC2dMRqfuHHT8kUk7fj8GD/Spooky-Eng-Soft?node-id=1-6&t=6OfcjZrNVv6OHTPu-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6
 
-  ```bash
-  cd backend
-  npm install
-  cd ..
-  ```
+---
 
-  3. Instale as dependências do frontend:
+## 🛠️ Inicializando o Projeto (Local)
 
-  ```bash
-  cd frontend
-  npm install
-  cd ..
-  ```
+1. Clone o repositório:
 
-  4. Configure o arquivo `.env` na pasta `backend/` (crie se não existir):
+```bash
+git clone <URL_DO_REPO>
+cd pcs3643-grupo7-Spooky
+```
 
-  ```env
-  NODE_ENV=development
-  MONGO_URI=mongodb://localhost:27017/spooky
-  PORT=3001
-  ```
+2. Instale as dependências do backend:
 
-  5. Certifique-se de que o MongoDB está rodando localmente (ex.: `mongod` ou serviço do sistema).
+```bash
+cd backend
+npm install
+cd ..
+```
 
-  6. Para popular o banco com dados iniciais, va ate a raiz do projeto e rode o comando:
+3. Instale as dependências do frontend:
 
-  ```bash
-  npx ts-node backend/src/db/seed.ts
-  ```
+```bash
+cd frontend
+npm install
+cd ..
+```
 
-  ***
-  7. Em um terminal, inicie o backend:
+4. Configure o arquivo `.env` na pasta `backend/` (crie se não existir):
 
-  ```bash
-  cd backend
-  npm run dev
-  ```
+```env
+NODE_ENV=development
+MONGO_URI=mongodb://localhost:27017/spooky
+PORT=3001
+```
 
-  8. Acesse a aplicação em http://localhost:5000/pois
+5. Certifique-se de que o MongoDB está rodando localmente (ex.: `mongod` ou serviço do sistema).
 
-  ````
+6. Para popular o banco com dados iniciais, va ate a raiz do projeto e rode o comando:
 
-  9. Em outro terminal, inicie o frontend:
-  ```bash
-  cd frontend
-  npm start
-  ````
+```bash
+npx ts-node backend/src/db/seed.ts
+```
 
-  OBS: O projeto acabou ficando um pouco pesado, entao naturalmente o front pode levar alguns minutos para subir. Seria um ponto interessante pra modificar futuramente, rever como otimizar o projeto.
+---
+
+7. Em um terminal, inicie o backend:
+
+```bash
+cd backend
+npm run dev
+```
+
+8. Acesse a aplicação em http://localhost:5000/pois
+
+````
+
+9. Em outro terminal, inicie o frontend:
+```bash
+cd frontend
+npm start
+````
+
+OBS: O projeto acabou ficando um pouco pesado, entao naturalmente o front pode levar alguns minutos para subir. Seria um ponto interessante pra modificar futuramente, rever como otimizar o projeto.
 
 ## 💡 Dicas de Testes Rápidos (Postman / curl)
 
