@@ -24,10 +24,10 @@ async function seed() {
   const rawData = fs.readFileSync(filePath, "utf-8");
   const data = JSON.parse(rawData);
 
-  for (const feature of data.features) {
+  const docs = data.features.map((feature: any) => {
     const props = feature.properties;
     const geom = feature.geometry;
-    const doc = {
+    return {
       name: props.name || "Sem nome",
       tipo:
         props.amenity ||
@@ -39,10 +39,19 @@ async function seed() {
       geometry: geom,
       properties: props,
     };
-    await Poi.create(doc);
+  });
+
+  const BATCH_SIZE = 500;
+  let inserted = 0;
+
+  for (let i = 0; i < docs.length; i += BATCH_SIZE) {
+    const batch = docs.slice(i, i + BATCH_SIZE);
+    await Poi.insertMany(batch);
+    inserted += batch.length;
+    console.log(`Inseridos ${inserted}/${docs.length} POIs...`);
   }
 
-  console.log("Inserção concluída.");
+  console.log(`✅ Inserção concluída: ${inserted} POIs inseridos.`);
   process.exit(0);
 }
 

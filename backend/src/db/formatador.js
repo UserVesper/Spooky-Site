@@ -1,12 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-// --- Configuração ---
 const CRAWLER_FILE = path.join(__dirname, "crawler_data.json");
 const OCCULT_FILE = path.join(__dirname, "uk_occult_pois.geojson");
 const OUTPUT_FILE = path.join(__dirname, "uk_occult_pois_universal.geojson");
 
-// --- Normalização de Tipo (Inalterada) ---
 const TYPE_NORMALIZATION_MAP = {
   Ghosts: "Fantasmas",
   "Animal Ghosts": "Fantasmas",
@@ -103,7 +101,7 @@ function transformCrawlerItemToFeature(item) {
       name: item.title || "Ponto de Interesse Desconhecido",
       source: "crawler",
       "type:normalized": normalizedType,
-      "area:normalized": normalizedArea, // <--- NOVO CAMPO
+      "area:normalized": normalizedArea,
 
       "type:original_category": originalCategory,
       description: item.notes || item.description,
