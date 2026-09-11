@@ -1,121 +1,146 @@
-# 📍 SPOOKY
+# 📍 SPOOKY - GIS de Lendas Urbanas e Mitos
 
 ## 📖 Descrição do Sistema
 
-- **Tema/Domínio**: Turismo
-- **Objetivo**: Desenvolver um GIS web para visualização e análise de dados georreferenciados baseado em lendas urbanas e mitos.
+- **Tema/Domínio**: Turismo & Folclore
+- **Objetivo**: Desenvolver um GIS web interativo para visualização e análise espacial de dados georreferenciados baseados em lendas urbanas, mitos e áreas de avistamentos.
 - **Funcionalidades principais**:
-  - Visualização de POIs no mapa (mapas simples, de calor, coropléticos)
+  - Visualização de Pontos de Interesse (POIs) e Áreas Limítrofes no mapa interativo
+  - Filtragem por categoria/tipo de lenda e busca textual por nome
+  - Agrupamento de marcadores (Clustering) para alta performance
+  - Cadastro, edição e remoção de novos pontos (CRUD de POIs)
+  - Mapas Coropléticos e Áreas Sanitizadas servidas diretamente via Backend/GeoJSON
 
-## Contribuição
+---
 
-- **Rodrigo Galvez**: https://github.com/UserVesper
-- **Gabriel Chaves**: https://github.com/gabrielc02
+## 👥 Contribuintes
+
+- **Rodrigo Galvez**: [GitHub](https://github.com/UserVesper)
+- **Gabriel Chaves**: [GitHub](https://github.com/gabrielc02)
 - **Ruan Machado**
-
-## ⚙️ Requisitos de Instalação (Local)
-
-- **Node.js**: >= 18
-- **npm**: >= 9 ou **yarn** >= 3
-- **MongoDB**: >= 6 (local ou Atlas)
-- **Git**: para clonar o repositório
 
 ---
 
 ## 🎨 Protótipo da Interface
 
-- **Figma**: https://www.figma.com/proto/NC2dMRqfuHHT8kUk7fj8GD/Spooky-Eng-Soft?node-id=1-6&t=6OfcjZrNVv6OHTPu-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6
+- **Figma**: [Protótipo Spooky](https://www.figma.com/proto/NC2dMRqfuHHT8kUk7fj8GD/Spooky-Eng-Soft?node-id=1-6&t=6OfcjZrNVv6OHTPu-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6)
 
 ---
 
-## 🛠️ Inicializando o Projeto (Local)
+## ⚙️ Pré-requisitos
 
-1. Clone o repositório:
+- **Node.js**: >= v18.x
+- **npm**: >= v9.x
+- **MongoDB**: Community Server >= 6.0 (rodando na porta padrão `27017`)
+- **Git**
+
+### 📦 Instalação do MongoDB no Windows (via Winget)
+
+Caso ainda não possua o MongoDB instalado no Windows, execute o seguinte comando no **PowerShell como Administrador**:
+
+```powershell
+winget install --id MongoDB.Server -e --accept-source-agreements --accept-package-agreements
+```
+
+> **Nota:** Após a instalação, certifique-se de que o serviço do MongoDB esteja rodando. No Windows, ele inicia automaticamente como um serviço. Para verificar ou iniciar manualmente:
+> ```powershell
+> net start MongoDB
+> ```
+
+---
+
+## 🛠️ Passo a Passo para Configurar e Rodar o Projeto
+
+### 1. Clonar o Repositório
 
 ```bash
-git clone <URL_DO_REPO>
+git clone https://github.com/UserVesper/Spooky-Site.git
 cd Spooky
 ```
 
-2. Instale as dependências do backend:
+### 2. Configurar as Variáveis de Ambiente (`.env`)
 
+Crie um arquivo chamado `.env` dentro da pasta `backend/` com as seguintes configurações:
+
+**Caminho:** `backend/.env`
+
+```env
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/spooky
+NODE_ENV=development
+```
+
+### 3. Instalar as Dependências
+
+#### Backend:
 ```bash
 cd backend
 npm install
 cd ..
 ```
 
-3. Instale as dependências do frontend:
-
+#### Frontend:
 ```bash
 cd frontend
 npm install
 cd ..
 ```
 
-4. Configure o arquivo `.env` na pasta `backend/` (crie se não existir):
+### 4. Popular o Banco de Dados (Seed)
 
-```env
-NODE_ENV=development
-MONGO_URI=mongodb://localhost:27017/spooky
-PORT=3001
-```
-
-5. Certifique-se de que o MongoDB está rodando localmente (ex.: `mongod` ou serviço do sistema).
-
-6. Para popular o banco com dados iniciais, va ate a raiz do projeto e rode o comando:
+Com o MongoDB em execução, rode o script de seed para cadastrar os pontos e lendas iniciais:
 
 ```bash
-npx ts-node backend/src/db/seed.ts
+cd backend
+npx ts-node src/db/seed.ts
+cd ..
 ```
 
 ---
 
-7. Em um terminal, inicie o backend:
+## 🚀 Executando o Projeto
+
+Para o funcionamento completo da aplicação, é necessário iniciar o **Backend** e o **Frontend** em terminais separados.
+
+### Terminal 1: Iniciar o Backend (Porta 5000)
 
 ```bash
 cd backend
 npm run dev
 ```
+*O servidor estará ativo em: `http://localhost:5000`*
 
-8. Acesse a aplicação em http://localhost:5000/pois
+### Terminal 2: Iniciar o Frontend (Porta 3000)
 
-````
-
-9. Em outro terminal, inicie o frontend:
 ```bash
 cd frontend
 npm start
-````
-
-OBS: O projeto acabou ficando um pouco pesado, entao naturalmente o front pode levar alguns minutos para subir. Seria um ponto interessante pra modificar futuramente, rever como otimizar o projeto.
-
-## 💡 Dicas de Testes Rápidos (Postman / curl)
-
-- Listar POIs:
-
-```bash
-curl http://localhost:5000/pois
 ```
+*A aplicação web abrirá em: `http://localhost:3000`*
 
-- Criar POI:
+---
 
-```bash
-curl -X POST http://localhost:5000/pois \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Teste","tipo":"demo","geometry":{},"properties":{}}'
-```
+## 💡 Dicas de Testes Rápidos da API (Endpoints REST)
 
-- Atualizar POI:
+- **Listar todos os POIs**:
+  ```bash
+  curl http://localhost:5000/pois
+  ```
 
-```bash
-curl -X PUT http://localhost:5000/pois/<ID_DO_POI> \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Atualizado"}'
-```
+- **Listar Áreas (GeoJSON)**:
+  ```bash
+  curl http://localhost:5000/areas
+  ```
 
-- Deletar POI:
+- **Criar novo POI**:
+  ```bash
+  curl -X POST http://localhost:5000/pois \
+    -H "Content-Type: application/json" \
+    -d '{"name":"Fantasma da Ópera","tipo":"Lenda","geometry":{"type":"Point","coordinates":[-46.6333,-23.5505]},"properties":{"descricao":"Aparições no teatro"}}'
+  ```
 
-```bash
-curl -X DELETE http://localhost:5000/pois/<ID_DO_POI>
-```
+- **Deletar POI por ID**:
+  ```bash
+  curl -X DELETE http://localhost:5000/pois/<ID_DO_POI>
+  ```
+

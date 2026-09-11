@@ -1,5 +1,4 @@
 export const pontosMock = [
-  // South West
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-2.587, 51.454] },
@@ -26,7 +25,6 @@ export const pontosMock = [
     properties: { name: "Mistérios Submarinos de Penzance", tipo: "Locais Históricos", area: "South West" }
   },
 
-  // South East
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [1.077, 51.280] },
@@ -53,7 +51,6 @@ export const pontosMock = [
     properties: { name: "Praça Histórica de Winchester", tipo: "Locais Históricos", area: "South East" }
   },
 
-  // London
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-0.221, 51.576] },
@@ -80,7 +77,6 @@ export const pontosMock = [
     properties: { name: "Museu Fantasmagórico de London", tipo: "Museu", area: "London" }
   },
 
-  // East of England
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [0.710, 52.242] },
@@ -97,7 +93,6 @@ export const pontosMock = [
     properties: { name: "Museu Sombrio de Norwich", tipo: "Museu", area: "Eastern" }
   },
 
-  // East Midlands
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-1.139, 52.636] },
@@ -114,7 +109,6 @@ export const pontosMock = [
     properties: { name: "Aparições de Lincoln", tipo: "Aparições", area: "East Midlands" }
   },
 
-  // North East
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-1.617, 54.978] },
@@ -136,7 +130,6 @@ export const pontosMock = [
     properties: { name: "Floresta Ritual de Penrith", tipo: "Locais Históricos", area: "North East" }
   },
 
-  // North West
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-2.244, 53.483] },
@@ -153,7 +146,6 @@ export const pontosMock = [
     properties: { name: "Catedral Sombria de Motherwell", tipo: "Locais Históricos", area: "North West" }
   },
 
-  // Yorkshire and The Humber
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-1.470, 53.381] },
@@ -175,7 +167,6 @@ export const pontosMock = [
     properties: { name: "Cemitério Arcano de Chester", tipo: "Cemitério", area: "Yorkshire and The Humber" }
   },
 
-  // West Midlands
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-2.730, 52.707] },
@@ -187,7 +178,6 @@ export const pontosMock = [
     properties: { name: "Loja de Artefatos de Bedford", tipo: "Loja", area: "West Midlands" }
   },
 
-  // Scotland & Wales (NÃO estão no GeoJSON → não entram no choropleth)
   {
     type: "Feature",
     geometry: { type: "Point", coordinates: [-5.930, 54.597] },

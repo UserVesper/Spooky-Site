@@ -1,18 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 @import "leaflet/dist/leaflet.css";
 
+/* Estilização suave para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #191428;
+}
+::-webkit-scrollbar-thumb {
+  background: #5b4699;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #795fc9;
+}
+
 html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Anton SC", sans-serif;
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  overflow-y: visible; /* Impede que o body crie uma segunda barra de rolagem duplicada */
+}
+
+#root {
+  height: 100%;
+  width: 100%;
 }
 
 body::before {
@@ -34,18 +60,44 @@ body::before {
 .background {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
-.section {
-  height: 100vh;                 
+.page-content {
+  flex: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: calc(100vh - 80px);
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Page Containers */
+.mapa-container-page {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.grafico-container-page, .poi-container-page {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   color: white;
-  font-size: 3rem;
-  text-align: center;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
-
+/* Make sure the map wrapper fills the parent container */
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

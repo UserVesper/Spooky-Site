@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import "./POI.css";
+import { usePoiContext } from "../context/PoiContext";
 
 export default function POI({ autenticado, setAutenticado }) {
+  const { poisRaw, refetch } = usePoiContext();
   const [usuario, setUsuario] = useState("");
   const [senha, setSenha] = useState("");
   const [erro, setErro] = useState("");
 
-  const [pois, setPois] = useState([]);
   const [filtroNome, setFiltroNome] = useState("");
 
   const [form, setForm] = useState({ nome: "", tipo: "", lat: "", lng: "" });
@@ -15,36 +16,31 @@ export default function POI({ autenticado, setAutenticado }) {
 
   const itemsPerPage = 10;
 
-  useEffect(() => {
-    async function carregar() {
-      try {
-        const resp = await fetch("http://localhost:5000/pois");
-        const data = await resp.json();
+  const pois = poisRaw.map((p) => ({
+    id: p._id,
+    nome: p.name,
+    tipo: p.tipo,
+    lat: p?.geometry?.coordinates?.[1] ?? null,
+    lng: p?.geometry?.coordinates?.[0] ?? null,
+  }));
 
-        const convertidos = data.map((p) => ({
-          id: p._id,
-          nome: p.name,
-          tipo: p.tipo,
-          lat: p?.geometry?.coordinates?.[1] ?? null,
-          lng: p?.geometry?.coordinates?.[0] ?? null,
-        }));
-
-        setPois(convertidos);
-      } catch (err) {
-        console.error("Erro ao carregar POIs:", err);
-      }
-    }
-
-    carregar();
-  }, []);
-
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    if (usuario === "admin" && senha === "1234") {
-      setAutenticado(true);
-      setErro("");
-    } else {
-      setErro("Usuário ou senha inválidos");
+    try {
+      const resp = await fetch("http://localhost:5000/users/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username: usuario, password: senha }),
+      });
+      const data = await resp.json();
+      if (resp.ok) {
+        setAutenticado(true);
+        setErro("");
+      } else {
+        setErro(data.error || "Usuário ou senha inválidos");
+      }
+    } catch (err) {
+      setErro("Erro ao conectar ao servidor");
     }
   };
 
@@ -65,25 +61,13 @@ export default function POI({ autenticado, setAutenticado }) {
       },
     };
 
-    const resp = await fetch("http://localhost:5000/pois", {
+    await fetch("http://localhost:5000/pois", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
 
-    const novo = await resp.json();
-
-    setPois((prev) => [
-      ...prev,
-      {
-        id: novo._id,
-        nome: novo.name,
-        tipo: novo.tipo,
-        lat: novo.geometry.coordinates[1],
-        lng: novo.geometry.coordinates[0],
-      },
-    ]);
-
+    await refetch();
     setForm({ nome: "", tipo: "", lat: "", lng: "" });
   };
 
@@ -99,28 +83,13 @@ export default function POI({ autenticado, setAutenticado }) {
       },
     };
 
-    const resp = await fetch(`http://localhost:5000/pois/${editando}`, {
+    await fetch(`http://localhost:5000/pois/${editando}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
 
-    const atualizado = await resp.json();
-
-    setPois((prev) =>
-      prev.map((p) =>
-        p.id === editando
-          ? {
-              id: atualizado._id,
-              nome: atualizado.name,
-              tipo: atualizado.tipo,
-              lat: atualizado.geometry.coordinates[1],
-              lng: atualizado.geometry.coordinates[0],
-            }
-          : p
-      )
-    );
-
+    await refetch();
     setEditando(null);
     setForm({ nome: "", tipo: "", lat: "", lng: "" });
   };
@@ -137,7 +106,7 @@ export default function POI({ autenticado, setAutenticado }) {
 
   const handleDelete = async (id) => {
     await fetch(`http://localhost:5000/pois/${id}`, { method: "DELETE" });
-    setPois((prev) => prev.filter((p) => p.id !== id));
+    await refetch();
   };
 
   const poisFiltrados = pois.filter((p) =>
