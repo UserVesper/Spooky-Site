@@ -22,7 +22,7 @@ const PoiContext = createContext<PoiContextType>({
   poisRaw: [],
   loading: true,
   error: null,
-  refetch: async () => {},
+  refetch: async () => { },
 });
 
 export function usePoiContext() {
