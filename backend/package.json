@@ -4,8 +4,14 @@
   "description": "- **Tema/Domínio**: Turismo  \r - **Objetivo**: Desenvolver um GIS web para visualização e análise de dados georreferenciados baseado em lendas urbanas e mitos.  \r - **Funcionalidades principais**:  \r   - Visualização de POIs no mapa (mapas simples, de calor, coropléticos)  \r   - Filtros por áreas, tipos de POIs e atributos  \r   - Cadastro e edição de POIs  \r   - Geração de gráficos analíticos",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "test": "jest --passWithNoTests"
+    "dev": "node scripts/start-with-mongo.js",
+    "dev:server": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "db:start": "node scripts/start-with-mongo.js --db-only",
+    "seed": "ts-node src/db/seed.ts",
+    "test": "jest --passWithNoTests",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",

@@ -17,7 +17,7 @@ describe("POI CRUD", () => {
         geometry: { type: "Point", coordinates: [0.0, 0.0] },
         properties: { old_name: "Antiga Casa" },
       })
-      .expect(200);
+      .expect(201);
 
     expect(res.body.name).toBe("Casa Velha");
   });

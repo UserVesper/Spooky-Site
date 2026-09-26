@@ -45,6 +45,8 @@ frontend/build/
 # Backend specific
 backend/node_modules/
 backend/dist/
+backend/.mongo-data/
+.mongo-data/
 
 # Optional: lock files de outro gerenciador
 package-lock.json

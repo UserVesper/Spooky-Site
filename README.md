@@ -42,10 +42,12 @@ Caso ainda não possua o MongoDB instalado no Windows, execute o seguinte comand
 winget install --id MongoDB.Server -e --accept-source-agreements --accept-package-agreements
 ```
 
-> **Nota:** Após a instalação, certifique-se de que o serviço do MongoDB esteja rodando. No Windows, ele inicia automaticamente como um serviço. Para verificar ou iniciar manualmente:
+> 💡 **Dica de Otimização (Não iniciar com o Windows):**
+> Por padrão, o instalador do MongoDB cria um serviço que inicia automaticamente no boot do Windows. Se preferir que ele **NÃO** inicie sozinho e seja aberto apenas quando você rodar o projeto, execute no **PowerShell como Administrador**:
 > ```powershell
-> net start MongoDB
+> Stop-Service MongoDB; Set-Service MongoDB -StartupType Manual
 > ```
+> O comando `npm run dev` do backend detectará automaticamente o executável do MongoDB e iniciará o banco sob demanda em `backend/.mongo-data`, encerrando-o quando você finalizar o terminal (`Ctrl + C`).
 
 ---
 
@@ -88,13 +90,16 @@ cd ..
 
 ### 4. Popular o Banco de Dados (Seed)
 
-Com o MongoDB em execução, rode o script de seed para cadastrar os pontos e lendas iniciais:
+Para cadastrar os pontos e lendas iniciais:
 
+Se o backend já estiver rodando (`npm run dev`), basta rodar em outro terminal:
 ```bash
 cd backend
-npx ts-node src/db/seed.ts
+npm run seed
 cd ..
 ```
+
+*(Ou, se preferir rodar apenas o banco de dados antes do servidor para executar o seed: `npm run db:start` em um terminal e `npm run seed` em outro).*
 
 ---
 
@@ -102,13 +107,19 @@ cd ..
 
 Para o funcionamento completo da aplicação, é necessário iniciar o **Backend** e o **Frontend** em terminais separados.
 
-### Terminal 1: Iniciar o Backend (Porta 5000)
+### Terminal 1: Iniciar o Backend (Porta 5000 + MongoDB automático)
 
 ```bash
 cd backend
 npm run dev
 ```
-*O servidor estará ativo em: `http://localhost:5000`*
+*O script verifica a porta `27017`: se o MongoDB não estiver ativo, inicia o banco localmente em `backend/.mongo-data` e em seguida sobe a API em `http://localhost:5000`. Ao pressionar `Ctrl + C`, o processo do MongoDB é finalizado automaticamente.*
+
+> 💡 **Comandos úteis do Backend:**
+> - `npm run dev`: Inicia MongoDB (se necessário) + Servidor Express
+> - `npm run dev:server`: Inicia apenas o servidor Express (útil se já tiver o MongoDB rodando externamente)
+> - `npm run db:start`: Inicia apenas o processo local do MongoDB
+> - `npm run seed`: Popula o banco com os dados iniciais
 
 ### Terminal 2: Iniciar o Frontend (Porta 3000)
 

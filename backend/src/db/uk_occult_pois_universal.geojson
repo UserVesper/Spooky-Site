@@ -718,40 +718,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            -1.4574699,
-            53.3834242
-          ],
-          [
-            -1.4575081,
-            53.383418
-          ],
-          [
-            -1.4574825,
-            53.3833616
-          ],
-          [
-            -1.4575226,
-            53.3833552
-          ],
-          [
-            -1.4576331,
-            53.3833373
-          ],
-          [
-            -1.4576867,
-            53.3834556
-          ],
-          [
-            -1.457498,
-            53.3834861
-          ],
-          [
-            -1.4574699,
-            53.3834242
-          ]
+          -1.4574699,
+          53.3834242
         ]
       },
       "properties": {
@@ -773,36 +743,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            -0.1264856,
-            51.5150139
-          ],
-          [
-            -0.1263776,
-            51.5150739
-          ],
-          [
-            -0.1264177,
-            51.5151026
-          ],
-          [
-            -0.1264284,
-            51.5151104
-          ],
-          [
-            -0.1265404,
-            51.5150535
-          ],
-          [
-            -0.1265151,
-            51.5150352
-          ],
-          [
-            -0.1264856,
-            51.5150139
-          ]
+          -0.1264856,
+          51.5150139
         ]
       },
       "properties": {
@@ -827,44 +771,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            -0.110621,
-            51.5217994
-          ],
-          [
-            -0.1105879,
-            51.5218949
-          ],
-          [
-            -0.1105129,
-            51.5218852
-          ],
-          [
-            -0.1105332,
-            51.5218424
-          ],
-          [
-            -0.1105157,
-            51.5218424
-          ],
-          [
-            -0.1105333,
-            51.5218025
-          ],
-          [
-            -0.1105794,
-            51.5218085
-          ],
-          [
-            -0.1105835,
-            51.521794
-          ],
-          [
-            -0.110621,
-            51.5217994
-          ]
+          -0.110621,
+          51.5217994
         ]
       },
       "properties": {
@@ -885,28 +795,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            1.2957629,
-            52.6299759
-          ],
-          [
-            1.2957707,
-            52.6299093
-          ],
-          [
-            1.2956417,
-            52.6299005
-          ],
-          [
-            1.2956357,
-            52.6299697
-          ],
-          [
-            1.2957629,
-            52.6299759
-          ]
+          1.2957629,
+          52.6299759
         ]
       },
       "properties": {
@@ -928,28 +820,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            1.7544023,
-            52.4780503
-          ],
-          [
-            1.7545806,
-            52.4780042
-          ],
-          [
-            1.7545485,
-            52.4779625
-          ],
-          [
-            1.7543604,
-            52.4780056
-          ],
-          [
-            1.7544023,
-            52.4780503
-          ]
+          1.7544023,
+          52.4780503
         ]
       },
       "properties": {
@@ -968,28 +842,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            1.7557762,
-            52.481144
-          ],
-          [
-            1.7557787,
-            52.4811083
-          ],
-          [
-            1.7559568,
-            52.4810835
-          ],
-          [
-            1.7559568,
-            52.4811386
-          ],
-          [
-            1.7557762,
-            52.481144
-          ]
+          1.7557762,
+          52.481144
         ]
       },
       "properties": {
@@ -1008,28 +864,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            -4.0566147,
-            51.0808538
-          ],
-          [
-            -4.0566185,
-            51.0808875
-          ],
-          [
-            -4.056717,
-            51.080883
-          ],
-          [
-            -4.0567082,
-            51.0808494
-          ],
-          [
-            -4.0566147,
-            51.0808538
-          ]
+          -4.0566147,
+          51.0808538
         ]
       },
       "properties": {
@@ -1044,44 +882,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                -1.4576867,
-                53.3834556
-              ],
-              [
-                -1.4576331,
-                53.3833373
-              ],
-              [
-                -1.4575226,
-                53.3833552
-              ],
-              [
-                -1.4574825,
-                53.3833616
-              ],
-              [
-                -1.4575081,
-                53.383418
-              ],
-              [
-                -1.4574699,
-                53.3834242
-              ],
-              [
-                -1.457498,
-                53.3834861
-              ],
-              [
-                -1.4576867,
-                53.3834556
-              ]
-            ]
-          ]
+          -1.4576867,
+          53.3834556
         ]
       },
       "properties": {
@@ -1103,40 +907,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                -0.1265404,
-                51.5150535
-              ],
-              [
-                -0.1265151,
-                51.5150352
-              ],
-              [
-                -0.1264856,
-                51.5150139
-              ],
-              [
-                -0.1263776,
-                51.5150739
-              ],
-              [
-                -0.1264177,
-                51.5151026
-              ],
-              [
-                -0.1264284,
-                51.5151104
-              ],
-              [
-                -0.1265404,
-                51.5150535
-              ]
-            ]
-          ]
+          -0.1265404,
+          51.5150535
         ]
       },
       "properties": {
@@ -1161,48 +935,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                -0.110621,
-                51.5217994
-              ],
-              [
-                -0.1105835,
-                51.521794
-              ],
-              [
-                -0.1105794,
-                51.5218085
-              ],
-              [
-                -0.1105333,
-                51.5218025
-              ],
-              [
-                -0.1105157,
-                51.5218424
-              ],
-              [
-                -0.1105332,
-                51.5218424
-              ],
-              [
-                -0.1105129,
-                51.5218852
-              ],
-              [
-                -0.1105879,
-                51.5218949
-              ],
-              [
-                -0.110621,
-                51.5217994
-              ]
-            ]
-          ]
+          -0.110621,
+          51.5217994
         ]
       },
       "properties": {
@@ -1223,32 +959,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                1.2956357,
-                52.6299697
-              ],
-              [
-                1.2956417,
-                52.6299005
-              ],
-              [
-                1.2957707,
-                52.6299093
-              ],
-              [
-                1.2957629,
-                52.6299759
-              ],
-              [
-                1.2956357,
-                52.6299697
-              ]
-            ]
-          ]
+          1.2956357,
+          52.6299697
         ]
       },
       "properties": {
@@ -1270,32 +984,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                1.7543604,
-                52.4780056
-              ],
-              [
-                1.7545485,
-                52.4779625
-              ],
-              [
-                1.7545806,
-                52.4780042
-              ],
-              [
-                1.7544023,
-                52.4780503
-              ],
-              [
-                1.7543604,
-                52.4780056
-              ]
-            ]
-          ]
+          1.7543604,
+          52.4780056
         ]
       },
       "properties": {
@@ -1314,32 +1006,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                1.7557762,
-                52.481144
-              ],
-              [
-                1.7557787,
-                52.4811083
-              ],
-              [
-                1.7559568,
-                52.4810835
-              ],
-              [
-                1.7559568,
-                52.4811386
-              ],
-              [
-                1.7557762,
-                52.481144
-              ]
-            ]
-          ]
+          1.7557762,
+          52.481144
         ]
       },
       "properties": {
@@ -1358,32 +1028,10 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
+        "type": "Point",
         "coordinates": [
-          [
-            [
-              [
-                -4.056717,
-                51.080883
-              ],
-              [
-                -4.0567082,
-                51.0808494
-              ],
-              [
-                -4.0566147,
-                51.0808538
-              ],
-              [
-                -4.0566185,
-                51.0808875
-              ],
-              [
-                -4.056717,
-                51.080883
-              ]
-            ]
-          ]
+          -4.056717,
+          51.080883
         ]
       },
       "properties": {
@@ -5634,27 +5282,6 @@
         "description": "While driving through the forest, this woman saw a large unidentified cat cross the road ahead of her. She reported it was between 4.5 feet - 5.5 feet in length, including the tail. When it was mentioned to a forest warden later in the day, he said it was not an uncommon report in that area.",
         "date": "20 April 2004",
         "location_name": "Tunstall Forest (Suffolk) - Road cutting through the area",
-        "crawler_type_field": "ABC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6868552,
-          45.0703155
-        ]
-      },
-      "properties": {
-        "name": "White Cat",
-        "source": "crawler",
-        "type:normalized": "Outros",
-        "area:normalized": "Turin",
-        "type:original_category": "Alien Big Cats",
-        "description": "A mother and daughter watched a large white cat close to woodland over a period of fifteen to twenty minutes. They compared the size of the cat to that of a deer.",
-        "date": "Day time, Summer, 1989",
-        "location_name": "Turin (Angus) - Fields near Turin House",
         "crawler_type_field": "ABC"
       }
     },
@@ -10577,27 +10204,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5602333,
-          49.4319101
-        ]
-      },
-      "properties": {
-        "name": "Hare",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Saint Martin",
-        "type:original_category": "Animal Ghosts",
-        "description": "A phantom white hare was said to manifest when storms rolled through the area.",
-        "date": "Weather dependent: stormy nights",
-        "location_name": "Saint Martin (Guernsey) - Area around Profond Camp",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -3.28272,
           59.058937
         ]
@@ -10842,69 +10448,6 @@
         "description": "The sound of running boars is reported here, snorting loudly as they go.",
         "date": "Unknown",
         "location_name": "St Leonards (Buckinghamshire) - Uphill and general area",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6407983,
-          49.4419534
-        ]
-      },
-      "properties": {
-        "name": "This Little Piggy...",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Pierre Du Bois",
-        "type:original_category": "Animal Ghosts",
-        "description": "A sow and her litter were said to pass through the house, in protest of food to the poor being withheld.",
-        "date": "Unknown",
-        "location_name": "St Pierre du Bois (Guernsey) - House at Le Lorier",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6407983,
-          49.4419534
-        ]
-      },
-      "properties": {
-        "name": "The Birds",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Pierre Du Bois",
-        "type:original_category": "Animal Ghosts",
-        "description": "A flock of screeching invisible phantom birds apparently attacked a witness walking along this lane.",
-        "date": "Mid twentieth century",
-        "location_name": "St Pierre du Bois (Guernsey) - Les Jaonnets Lane",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6062774,
-          49.4427348
-        ]
-      },
-      "properties": {
-        "name": "Horse and Cart",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Saviour",
-        "type:original_category": "Animal Ghosts",
-        "description": "The sounds of a horse and cart unloading stone has been heard around this former house. Another story says it is haunted by a sow and her piglets.",
-        "date": "Unknown",
-        "location_name": "St Saviour (Guernsey) - De Garis house (no longer present)",
         "crawler_type_field": "Haunting Manifestation"
       }
     },
@@ -11199,27 +10742,6 @@
         "description": "A cat has been seen in the building running across the bar area. A member of staff who spotted the animal in July 2007 mistook it for a real creature, only to be told otherwise when she mentioned her encounter to others. There are also stories of a phantom man who sits by the fireplace with a beer.",
         "date": "Early July 2007",
         "location_name": "Swaffham (Norfolk) - Market Cross public house",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.8002517,
-          62.6993941
-        ]
-      },
-      "properties": {
-        "name": "Black Cat",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Swindon",
-        "type:original_category": "Animal Ghosts",
-        "description": "A ghostly black cat was spotted by the occupants of this property.",
-        "date": "1986-1989",
-        "location_name": "Swindon (Wiltshire) - Private residence, Liden",
         "crawler_type_field": "Haunting Manifestation"
       }
     },
@@ -11893,27 +11415,6 @@
         "date": "Unknown",
         "location_name": "West Mersea (Essex) - White Hart Inn",
         "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.6298621,
-          38.9413942
-        ]
-      },
-      "properties": {
-        "name": "Pitch Forked Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Woodyates",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A farmhand discovered a dog laying in the hay - he poked it with his pitchfork, causing the entity to vanish. The sound of a coach has also been heard as it stops by the front of the house, though nothing is seen.",
-        "date": "Unknown",
-        "location_name": "West Woodyates (Dorset) - Manor",
-        "crawler_type_field": "Shuck"
       }
     },
     {
@@ -17969,27 +17470,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.103233,
-          49.1805019
-        ]
-      },
-      "properties": {
-        "name": "Bells",
-        "source": "crawler",
-        "type:normalized": "Música/Sons",
-        "area:normalized": "St Helier",
-        "type:original_category": "Bells",
-        "description": "It is said that in 1551 all the church bells in Jersey were removed and shipped to France. Unfortunately, they did not make it; the vessel carrying the bells sank shortly after departing. It is now said that anyone who hears the bells while out at sea will not be returning to land.",
-        "date": "Unknown",
-        "location_name": "St Helier (Jersey) - Off the Coast, heading towards Minquiers",
-        "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -3.13327,
           51.710863
         ]
@@ -18843,27 +18323,6 @@
         "description": "A phantom woman who has been spotted on the staircase is reputed to be a bride killed in the hall.",
         "date": "Unknown",
         "location_name": "Pontefract (West Yorkshire) - Town Hall",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.1344899,
-          49.2075809
-        ]
-      },
-      "properties": {
-        "name": "The Bride",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Lawrence",
-        "type:original_category": "Brides",
-        "description": "Once a year, on an unconfirmed night, a team of six horses draw a coach containing a faceless bride. During her lifetime, the bride is said to have jilted at the altar, resulting in her suicide a short time later. Now in death her ghost drives around the area looking for the man who betrayed her.",
-        "date": "Unknown",
-        "location_name": "St Lawrence (Jersey) - Waterworks Valley",
         "crawler_type_field": "Haunting Manifestation"
       }
     },
@@ -23114,27 +22573,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.0655977,
-          26.3995204
-        ]
-      },
-      "properties": {
-        "name": "Mermaid",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Isle Of Sanday",
-        "type:original_category": "Mermaids & Men",
-        "description": "A mermaid perched on a rock threw herself into the sea when approached by two local men walking along the beach. After the mermaid entered the sea, the witnesses could see the creature's upper body resembled a woman.",
-        "date": "Circa 1803",
-        "location_name": "Isle of Sanday (Highland) - Beach on north end of island",
-        "crawler_type_field": "Cryptozoology"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -6.4954877,
           57.0501671
         ]
@@ -27167,27 +26605,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.1358705,
-          29.7516123
-        ]
-      },
-      "properties": {
-        "name": "Humped Creature",
-        "source": "crawler",
-        "type:normalized": "UFOs/Criptozoologia",
-        "area:normalized": "Scalpay Island",
-        "type:original_category": "Cryptozoology",
-        "description": "Four witnesses in a yacht reported seeing two humped creatures swimming off the coast of the island. One witness estimated the length of the serpents to be at least forty feet (twelve metres).",
-        "date": "Late nineteenth century",
-        "location_name": "Scalpay Island (Highland) - Waters off the island",
-        "crawler_type_field": "Cryptozoology"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.014721,
           51.42327969999999
         ]
@@ -27936,27 +27353,6 @@
         "description": "This sea serpent was observed moving swiftly through the water, vanishing from view after a sailing boat moved too close to it.",
         "date": "1912",
         "location_name": "St Margaret's Bay (Kent) - Off coast",
-        "crawler_type_field": "Cryptozoology"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6479317,
-          49.4465785
-        ]
-      },
-      "properties": {
-        "name": "Howling Creature",
-        "source": "crawler",
-        "type:normalized": "UFOs/Criptozoologia",
-        "area:normalized": "St Pierre Du Bois",
-        "type:original_category": "Cryptozoology",
-        "description": "Heard but never seen, a creature was said to howl close to the reef when a storm was due.",
-        "date": "Weather Dependent: prior to a storm",
-        "location_name": "St Pierre du Bois (Guernsey) - Rocquaine Bay",
         "crawler_type_field": "Cryptozoology"
       }
     },
@@ -31170,27 +30566,6 @@
         "description": "Before being boiled alive in a cauldron of tar, a local soothsayer predicted the downfall of the family that owned the castle. His every word came true...",
         "date": "Unknown",
         "location_name": "Urray (Highland) - Brahan Castle, former site of",
-        "crawler_type_field": "Curse"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5267593,
-          49.4992455
-        ]
-      },
-      "properties": {
-        "name": "Fire",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Vale",
-        "type:original_category": "Curses",
-        "description": "Despite dire warnings from locals, Mr Hocart of Belval had workers cut this former monolith into stone for his new house. The day the building work had finished, a fire broke out, killing two servants. Two ships which carried spare stone to the UK sank within the year, and even though Hocart moved into a second house to Alderney, the fire curse followed him, destroying that dwelling also. Hocart finally returned to Guernsey, but just prior to landing, some rigging fell and landed on his head, killing him instantly.",
-        "date": "Unknown - pre twentieth century",
-        "location_name": "Vale (Guernsey) - L'Ancresse Bay - large stone (no longer standing)",
         "crawler_type_field": "Curse"
       }
     },
@@ -35084,27 +34459,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.2747406,
-          40.0189728
-        ]
-      },
-      "properties": {
-        "name": "Turn it Over",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Shebbear",
-        "type:original_category": "The Devil and All His Works",
-        "description": "Once a year the villagers turn a large stone over that stands by an oak. It is said that if they fail to do so, disaster and ill-fortune will strike the region - one legend says the last time the village forgot to rotate the stone was just before the Second World War began. Some believe the Devil himself is trapped under the stone.",
-        "date": "05 November (reoccurring)",
-        "location_name": "Shebbear (Devon) - Devil's Boulder",
-        "crawler_type_field": "Legend - Old Nick"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.2886962,
           53.3592083
         ]
@@ -35273,48 +34627,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1847371,
-          49.1875396
-        ]
-      },
-      "properties": {
-        "name": "Moving Bricks",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St Brelade",
-        "type:original_category": "The Devil and All His Works",
-        "description": "The church was going to be built over a mile away, but the workmen awoke the day the construction was due to start and found their materials had been moved closer to the sea. The men spent the day moving everything back to the original spot, but after the materials were once again moved the following night, the church was constructed where it now stands. The jury is divided on whether God, the Devil or fairy folk were responsible.",
-        "date": "Unknown",
-        "location_name": "St Brelade (Jersey) - Parish church",
-        "crawler_type_field": "Legend - Old Nick"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0726609,
-          49.16475
-        ]
-      },
-      "properties": {
-        "name": "Devil's Print",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St Clement",
-        "type:original_category": "The Devil and All His Works",
-        "description": "The area was reputedly the meeting place for witches and for summoning the devil. A footprint left by the devil is said to be still visible on a rock.",
-        "date": "Still present?",
-        "location_name": "St Clement (Jersey) - Rocqueberg, rocky outcrop",
-        "crawler_type_field": "Legend - Old Nick"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -4.3079291,
           50.39360110000001
         ]
@@ -35349,27 +34661,6 @@
         "description": "The Devil and the village smith had a hay mowing contest in the village. Unbeknown to Old Nick, the smith planted obstacles (most likely iron stakes) in the Devil's half of the field, ensuring the Devil's scythe quickly became blunt. Enraged, Old Nick threw his whetstone at the smith - it missed and landed in a field where it remained for some time before being removed.",
         "date": "Unknown",
         "location_name": "St Mabyn (Cornwall) - Exact location not known",
-        "crawler_type_field": "Legend - Old Nick"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.1685588,
-          49.2502578
-        ]
-      },
-      "properties": {
-        "name": "Sea Sounds",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St Mary",
-        "type:original_category": "The Devil and All His Works",
-        "description": "A wooden devil figurehead from a ship once stood here, and although the first was stolen and burned, a modern replacement exist. Although some modern tales relate the crashing of the sea from the holes to legends, there is little to suggest people ever thought the noise was related to the Devil.",
-        "date": "Still present",
-        "location_name": "St Mary (Jersey) - Devils Hole",
         "crawler_type_field": "Legend - Old Nick"
       }
     },
@@ -37100,27 +36391,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0638006,
-          49.20034889999999
-        ]
-      },
-      "properties": {
-        "name": "Slay Lie",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Grouville",
-        "type:original_category": "Dragons, Wyverns & Wyrms",
-        "description": "Local lord Seigneur de Hambye killed a dragon in the marshes close to here but was then murdered by his squire. The squire took credit for killing the monster, and claimed the beast had killed de Hambye, but not before his former master requested that the squire marry his widow. Fortunately, the squire would sleep talk, and it was not too long before the truth slipped from his lips in the marital bed. He was hanged for murder. Seigneur de Hambye was buried under La Hougue Bie.",
-        "date": "Unknown",
-        "location_name": "Grouville (Jersey) - La Hougue Bie",
-        "crawler_type_field": "Dragon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.0784138,
           55.2082542
         ]
@@ -37932,27 +37202,6 @@
         "description": "A great lizard that lived along this road, feasting on lonely travellers at night, was killed by a local hero and his pet dog. Unfortunately, both the victors died soon after the battle due to the delayed effect of the dragon's poison. One story says that the dragon was over a mile long.",
         "date": "Unknown",
         "location_name": "Slingsby (North Yorkshire) - Road from Hovingham to Malton",
-        "crawler_type_field": "Dragon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.5539968,
-          -43.539318
-        ]
-      },
-      "properties": {
-        "name": "Dragon Death",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Sockburn",
-        "type:original_category": "Dragons, Wyverns & Wyrms",
-        "description": "Sir John Conyers killed this worm by stabbing it under a wing, marking the spot with a stone and donating the used sword to Durham Cathedral.",
-        "date": "Unknown",
-        "location_name": "Sockburn (Durham) - Area marked by the Greystone",
         "crawler_type_field": "Dragon"
       }
     },
@@ -44681,27 +43930,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0565364,
-          42.3555076
-        ]
-      },
-      "properties": {
-        "name": "Home",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Humberstone",
-        "type:original_category": "Fairies & the Little People",
-        "description": "This large piece of granitic rock was once believed to be the home to fairies. A nineteenth century owner of the land removed part of the stone so his plough could pass over it, but after which his fortune vanished, and he died in a poorhouse.",
-        "date": "Stone still present",
-        "location_name": "Humberstone (Gloucestershire) - Hoston Stone (aka Hoston)",
-        "crawler_type_field": "Fairy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.1270319,
           55.035927
         ]
@@ -45954,27 +45182,6 @@
         "description": "Fairy cattle would constantly graze both on the land surrounding the loch, and in the still waters. Another legend suggests it was home to 'fish without fins', interpreted by some as serpentine monsters. An Each Uisge once lived here but was driven out and moved to Loch Earn instead.",
         "date": "Unknown",
         "location_name": "Loch Tay (Perth and Kinross) - General area",
-        "crawler_type_field": "Fairy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -158.1742749,
-          21.4205929
-        ]
-      },
-      "properties": {
-        "name": "Mary's Urisk",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Lochaber",
-        "type:original_category": "Fairies & the Little People",
-        "description": "A voyeuristic Urisk would visit this area and watch a lady named Mary as she worked her spinning wheel. A man who wanted to see the creature for himself donned Mary's clothing but failed to fool the Urisk (that declared 'I see your beard').",
-        "date": "Pre twentieth century",
-        "location_name": "Lochaber (Highland) - Waterfall in Glen Maili",
         "crawler_type_field": "Fairy"
       }
     },
@@ -47537,27 +46744,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.542969,
-          -35.675147
-        ]
-      },
-      "properties": {
-        "name": "Kelpie Bridle",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Rannoch",
-        "type:original_category": "Fairies & the Little People",
-        "description": "A man travelling from Pitlochry to Nether Lochaber rested in this area and found a horse's bridle made of pure silver which burnt hot to the touch. A wise woman told the man the bridle belonged to a Kelpie and instructed him to hang the object in his home on a crook of rowan. The man did as instructed and was blessed with luck for the rest of his life.",
-        "date": "Unknown",
-        "location_name": "Rannoch (Highland) - Lochanna Cuile (location may have changed identity), near or on Rannoch Moor",
-        "crawler_type_field": "Fairy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -3.4058201,
           54.3562679
         ]
@@ -48398,27 +47584,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1206972,
-          49.2393878
-        ]
-      },
-      "properties": {
-        "name": "Blinded",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St John",
-        "type:original_category": "Fairies & the Little People",
-        "description": "The fairies which were believed to live bathe here would strike anyone blind who spotted them. The area is also said to be home to spooky noises, although the source is unknown.",
-        "date": "Unknown",
-        "location_name": "St John (Jersey) - Lavoir des Dames",
-        "crawler_type_field": "Fairy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -4.6503492,
           54.2059942
         ]
@@ -48474,27 +47639,6 @@
         "description": "Traditionally the homes of fairies, this barrow is one of many in the area and the little people have been seen dancing around it.",
         "date": "Unknown",
         "location_name": "St Just (Cornwall) - Carn Gluze barrow",
-        "crawler_type_field": "Fairy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6554406,
-          49.4564592
-        ]
-      },
-      "properties": {
-        "name": "Gateway to Fairyland",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St Pierre Du Bois",
-        "type:original_category": "Fairies & the Little People",
-        "description": "Legend names this site as an entrance to fairyland, with the little people being seen milling around the doorway. If one left a bowl of porridge by the doorway with unfinished knitting overnight, by the following day the bowl would be empty and the knitting complete.",
-        "date": "Tomb still present",
-        "location_name": "St Pierre du Bois (Guernsey) - Creux es Faies (megalithic tomb)",
         "crawler_type_field": "Fairy"
       }
     },
@@ -50750,27 +49894,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -156.7886111,
-          71.29055559999999
-        ]
-      },
-      "properties": {
-        "name": "Returning Giant",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Oare",
-        "type:original_category": "Giants",
-        "description": "A local legend states that if you run around the barrow seven times, the giant buried within shall return.",
-        "date": "Barrow still present",
-        "location_name": "Oare (Wiltshire) - Giant's Grave barrow",
-        "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.3057244,
           52.8642068
         ]
@@ -51183,27 +50306,6 @@
         "description": "The mount was once home to this legendary beast (named by some as a seven foot giant), thought to have a single eye. It crossed to the mainland at low tide, helping itself to cattle for its food.",
         "date": "Unknown",
         "location_name": "St Michael's Mount (Cornwall) - General area",
-        "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5462231,
-          49.4665371
-        ]
-      },
-      "properties": {
-        "name": "Cricket Bat",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St Peter Port",
-        "type:original_category": "Giants",
-        "description": "Children would be told that this 350 centimetre tall stone was a giant's cricket bat, thrust into the earth after another giant refused to fetch the ball during their game. One story says the site is also haunted by an old woman manifesting on moonlit nights.",
-        "date": "Stone still present",
-        "location_name": "St Peter Port (Guernsey) - La Longue Rocque (aka Grande Pierre) (standing stone)",
         "crawler_type_field": "Legend"
       }
     },
@@ -52892,27 +51994,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5918299,
-          49.451614
-        ]
-      },
-      "properties": {
-        "name": "Headless Figure",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Castel",
-        "type:original_category": "Headless Ghosts",
-        "description": "A tall headless figure is said to haunt the valley during the winter months.",
-        "date": "December (reoccurring), between 22:00h - 00:00h",
-        "location_name": "Castel (Guernsey) - Fauxquets Valley",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.6311856,
           54.3774683
         ]
@@ -53179,27 +52260,6 @@
         "date": "Unknown",
         "location_name": "Coltishall (Norfolk) - General area",
         "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.6166192,
-          40.7046472
-        ]
-      },
-      "properties": {
-        "name": "Sir George Sydenham",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Combe Sydenham",
-        "type:original_category": "Horses & Riders",
-        "description": "Sir George is reported to ride his headless horse up and down the hills near the village. Combe Sydenham is also a place where the Wild Hunt has been reported, always heard as locals were too afraid to look (and rightly so!).",
-        "date": "Daily, midnight to dawn (reoccurring)",
-        "location_name": "Combe Sydenham (Somerset) - Hills around village",
-        "crawler_type_field": "Haunting Manifestation"
       }
     },
     {
@@ -57806,27 +56866,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0938947,
-          49.2197818
-        ]
-      },
-      "properties": {
-        "name": "Funeral",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Saint Martin",
-        "type:original_category": "Headless Ghosts",
-        "description": "All members of this ghostly funeral procession were said to be headless.",
-        "date": "Unknown",
-        "location_name": "Saint Martin (Guernsey) - Lanes around the area of Le Hurel",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.794472,
           51.068785
         ]
@@ -58282,69 +57321,6 @@
         "date": "Early twentieth century",
         "location_name": "St Andrews (Fife) - North Bell Street (now Greyfriars Garden)",
         "crawler_type_field": "Environmental Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5497069,
-          49.4541677
-        ]
-      },
-      "properties": {
-        "name": "Headless People",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Peter Port",
-        "type:original_category": "Headless Ghosts",
-        "description": "Several headless people are said to hurry up and down this lane during the winter months.",
-        "date": "Weather Dependent: Dark winter nights",
-        "location_name": "St Peter Port (Guernsey) - Lane east of La Longue Rocque (aka Grande Pierre) (standing stone)",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5533086,
-          49.4486827
-        ]
-      },
-      "properties": {
-        "name": "Headless Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Peter Port",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A large black headless dog was said to patrol this road at night. Those brave enough to strike out at the hound hit nothing but air.",
-        "date": "Unknown",
-        "location_name": "St Peter Port (Guernsey) - Ville-au-Roi",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6092187,
-          49.4389567
-        ]
-      },
-      "properties": {
-        "name": "Headless Horseman",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Saviour",
-        "type:original_category": "Headless Ghosts",
-        "description": "The reason for this horseman dashing along the road is long forgotten.",
-        "date": "Weather Dependent: Moonlit nights",
-        "location_name": "St Saviour (Guernsey) - Road between Le Gron and Les Piques",
-        "crawler_type_field": "Haunting Manifestation"
       }
     },
     {
@@ -60851,27 +59827,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.28587259999999,
-          36.8507689
-        ]
-      },
-      "properties": {
-        "name": "Golden Gates",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Bromholm",
-        "type:original_category": "Hidden Treasure",
-        "description": "Local legend once said a secret tunnel ran between these two sites, with golden gates set within.",
-        "date": "Unknown",
-        "location_name": "Bromholm (Norfolk) - Tunnel between Bromholm Priory and Gimingham hall",
-        "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.3283809,
           55.022289
         ]
@@ -61053,27 +60008,6 @@
         "description": "The barrow was once thought to contain a golden coffin, though when excavated in 1933, no coffin was discovered.",
         "date": "Barrow",
         "location_name": "Cashmoor (Dorset) - Thickthorn Down barrow",
-        "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5727952,
-          49.4589352
-        ]
-      },
-      "properties": {
-        "name": "Fairy Treasure",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Castel",
-        "type:original_category": "Hidden Treasure",
-        "description": "This rocky pile was once said to be home to fairies and witches, and it concealed a massive wealth of treasure within.",
-        "date": "Unknown",
-        "location_name": "Castel (Guernsey) - Rocky outcrop in the parish of Ste Marie du Castel",
         "crawler_type_field": "Legend"
       }
     },
@@ -69818,27 +68752,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.0539718,
-          -27.6881718
-        ]
-      },
-      "properties": {
-        "name": "Old Man",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Coate",
-        "type:original_category": "Horses & Riders",
-        "description": "This pathway is reputedly haunted by a little old man dressed in old fashioned clothing.",
-        "date": "1972?",
-        "location_name": "Coate (Wiltshire) - Path across field heading towards Pond House",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.853754,
           51.525656
         ]
@@ -69936,27 +68849,6 @@
         "description": "A woman cycling along the lane during the Second World War encountered a procession of cowled monks carrying the body of a young man draped in black. Pedalling away from the scene, the woman was overtaken by a ghostly horseman also galloping from the monks. Man and horse vanished as they reached the railway bridge in the village. Many years later two children walking home encountered a tall, hooded monk along a country lane. They quickly ran past.",
         "date": "01 February 1940, and circa 1975",
         "location_name": "Colwall (Hereford & Worcester) - Road near village green known as 'Haunted Lane'",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.6166192,
-          40.7046472
-        ]
-      },
-      "properties": {
-        "name": "Sir George Sydenham",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Combe Sydenham",
-        "type:original_category": "Horses & Riders",
-        "description": "Sir George is reported to ride his headless horse up and down the hills near the village. Combe Sydenham is also a place where the Wild Hunt has been reported, always heard as locals were too afraid to look (and rightly so!).",
-        "date": "Daily, midnight to dawn (reoccurring)",
-        "location_name": "Combe Sydenham (Somerset) - Hills around village",
         "crawler_type_field": "Haunting Manifestation"
       }
     },
@@ -73451,27 +72343,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80249309999999,
-          42.2628113
-        ]
-      },
-      "properties": {
-        "name": "Lady Lightfoot",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Little Shelsey",
-        "type:original_category": "Horses & Riders",
-        "description": "This ghostly woman drove her coach and horses around inside the courthouse, screaming in protest of her murder while in prison.",
-        "date": "Unknown",
-        "location_name": "Little Shelsey (Hereford & Worcester) - Courthouse",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.582883,
           50.699346
         ]
@@ -76769,27 +75640,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5440707,
-          49.4469291
-        ]
-      },
-      "properties": {
-        "name": "Three Horsemen",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "St Peter Port",
-        "type:original_category": "Horses & Riders",
-        "description": "Three figures riding white horses were said to gallop loudly down the hill.",
-        "date": "Circa 1900",
-        "location_name": "St Peter Port (Guernsey) - Colborne Road",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -4.908329,
           51.6236665
         ]
@@ -78092,27 +76942,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.6298621,
-          38.9413942
-        ]
-      },
-      "properties": {
-        "name": "Pitch Forked Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Woodyates",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A farmhand discovered a dog laying in the hay - he poked it with his pitchfork, causing the entity to vanish. The sound of a coach has also been heard as it stops by the front of the house, though nothing is seen.",
-        "date": "Unknown",
-        "location_name": "West Woodyates (Dorset) - Manor",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.2261527,
           51.86222189999999
         ]
@@ -79029,27 +77858,6 @@
         "description": "Neil McIntosh, steering a boat between the two islands in stormy weather, glimpsed a white human figure in the sea. McIntosh thought the creature to be a mermaid, although admitted he did not have much of an opportunity to examine it.",
         "date": "Circa 1804",
         "location_name": "Isle of Canna (Highland) - Sea, about quarter of the way between island and Skye",
-        "crawler_type_field": "Cryptozoology"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.0655977,
-          26.3995204
-        ]
-      },
-      "properties": {
-        "name": "Mermaid",
-        "source": "crawler",
-        "type:normalized": "Maldições/Lendas",
-        "area:normalized": "Isle Of Sanday",
-        "type:original_category": "Mermaids & Men",
-        "description": "A mermaid perched on a rock threw herself into the sea when approached by two local men walking along the beach. After the mermaid entered the sea, the witnesses could see the creature's upper body resembled a woman.",
-        "date": "Circa 1803",
-        "location_name": "Isle of Sanday (Highland) - Beach on north end of island",
         "crawler_type_field": "Cryptozoology"
       }
     },
@@ -83671,48 +82479,6 @@
         "date": "Unknown",
         "location_name": "St Michael's Island (Isle of Man) - Church, and nearby ruins",
         "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5371325,
-          49.4562523
-        ]
-      },
-      "properties": {
-        "name": "Floating Shadow",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Peter Port",
-        "type:original_category": "Pirate Ghosts and Treasure",
-        "description": "Over a period of nine months, a shadowy entity had manifested six times to one witness. The entity would hover over the witness and touch her right arm before vanishing. Two visiting mediums had said that the entity was either a sailor or pirate who had once lived on the site.",
-        "date": "Early 1972-1973",
-        "location_name": "St Peter Port (Guernsey) - Flat in the vicinity of Berthelot Street and Lefebvre Street",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.42923119999999,
-          42.2643968
-        ]
-      },
-      "properties": {
-        "name": "Sam",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Tilbury",
-        "type:original_category": "Pirate Ghosts and Treasure",
-        "description": "This former pirate radio station is reportedly home to 'Sailor Sam', a phantom in yellow oilskins who appears all over the ship.",
-        "date": "1983 onwards",
-        "location_name": "Tilbury (location as of 2008) (Essex) - Ross Revenge (home of Radio Caroline)",
-        "crawler_type_field": "Haunting Manifestation"
       }
     },
     {
@@ -88676,27 +87442,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5271729,
-          49.4981695
-        ]
-      },
-      "properties": {
-        "name": "Tchen Bodu",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Clos Du Valle",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "This black hound, known locally as tchen Bodu, is seen as a death omen for either the witness or someone close to them.",
-        "date": "Unknown",
-        "location_name": "Clos du Valle (Guernsey) - General area",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.9417077,
           51.3557637
         ]
@@ -89495,27 +88240,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.64663019999999,
-          38.823448
-        ]
-      },
-      "properties": {
-        "name": "Glowing Eyes",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Dundar",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A witness recounted how friends were terrified by a strange black dog with glowing red eyes which appeared and disappeared around them. The sightings were accompanied by high pitched screeching.",
-        "date": "Unknown",
-        "location_name": "Dundar (Lothian) - Woods in the area",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           0.937827,
           52.68161800000001
         ]
@@ -90285,27 +89009,6 @@
         "description": "To hear the howl of this demonic dog indicated the imminent death of a family member, although on one occasion, the howling came from a farmer's son who then eloped with a woman in a Scooby-Doo-que ruse that is too convoluted to summarise here.",
         "date": "Unknown",
         "location_name": "Hathersage (Derbyshire) - Clough Dell",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.28587259999999,
-          36.8507689
-        ]
-      },
-      "properties": {
-        "name": "Snarling unlike any Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Hemby",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "When walking back from the arcades, a couple and their nineteen year old daughter witnessed a large dog with glowing red eyes, growling 'unlike any dog... ever heard before'. The family reported a run of bad luck ever since.",
-        "date": "Summer 1996, around midnight",
-        "location_name": "Hemby (Norfolk) - Lane leading to a Caravan Park, behind a fence in the garden of a house",
         "crawler_type_field": "Shuck"
       }
     },
@@ -92435,27 +91138,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.8939439,
-          45.2444301
-        ]
-      },
-      "properties": {
-        "name": "Gytrack",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Philpots Camp",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "This phantom black hound once kept the local populace away from the area at night.",
-        "date": "Early twentieth century?",
-        "location_name": "Philpots Camp (Dorset) - The Big-Upon-Little Stone (aka Great-Upon-Little stone)",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -9.1798289,
           53.9715112
         ]
@@ -93590,48 +92272,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5533086,
-          49.4486827
-        ]
-      },
-      "properties": {
-        "name": "Headless Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Peter Port",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A large black headless dog was said to patrol this road at night. Those brave enough to strike out at the hound hit nothing but air.",
-        "date": "Unknown",
-        "location_name": "St Peter Port (Guernsey) - Ville-au-Roi",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6502224,
-          49.4541115
-        ]
-      },
-      "properties": {
-        "name": "Calf Sized Hound",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "St Pierre Du Bois",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "This large black dog was said to have caused one man to die of shock after it sat in his cart.",
-        "date": "Nineteenth century",
-        "location_name": "St Pierre du Bois (Guernsey) - Road leading to St Saviours from L'Eree",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           0.1813441,
           52.1579758
         ]
@@ -93771,27 +92411,6 @@
         "description": "The appearance of this headless hound denoted a forthcoming tragedy.",
         "date": "Unknown",
         "location_name": "Swaledale (North Yorkshire) - Humpbacked bridge leading to Ivelet",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.7732971,
-          38.67851570000001
-        ]
-      },
-      "properties": {
-        "name": "Cat Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Swannington",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A large black dog was seen by two witnesses as it ran across the road ahead of them. It moved more like a cat than dog but did not look feline. One of the witnesses, a vet, was not able to identify it.",
-        "date": "Circa 1975, after dark",
-        "location_name": "Swannington (Norfolk) - Woodland",
         "crawler_type_field": "Shuck"
       }
     },
@@ -94010,27 +92629,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.9002077,
-          35.9955684
-        ]
-      },
-      "properties": {
-        "name": "Barguest",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Throstlenest",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "Little is known about the Throstlenest shuck, which patrols the area between Darlington and Houghton.",
-        "date": "Unknown",
-        "location_name": "Throstlenest (Durham) - General area",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           1.434579,
           52.5566621
         ]
@@ -94191,27 +92789,6 @@
         "description": "A black, lean dog with fiery red eyes would stand in the middle of the road in his village, sinking into the ground if approached. It was thought to be the spirit of a chimneysweep executed for murder.",
         "date": "Pre-1863",
         "location_name": "Tring (Hertfordshire) - Area where gibbet once stood",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0826451,
-          49.2384387
-        ]
-      },
-      "properties": {
-        "name": "Le Tchan de Bouole",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Trinity",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "This dog, sometimes dragging a large chain, is said to appear before the area is hit by bad weather. Writer Linda Corby claimed that three of her friends had seen this large black hound a few hours before the Great Storm of 1987 (although there may be a more mundane explanation), while in 2008 a car full of people were chased by a black shadow accompanied by the sound of dragging chains.",
-        "date": "Weather Dependent: Prior to a storm (last seen 2008)",
-        "location_name": "Trinity (Jersey) - Bouley Bay",
         "crawler_type_field": "Shuck"
       }
     },
@@ -94569,27 +93146,6 @@
         "description": "This canine entity with eyes as large as saucers is said to roam the fields around the lane.",
         "date": "Twentieth century",
         "location_name": "West Stockwith (Nottinghamshire) - Intake Lane",
-        "crawler_type_field": "Shuck"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.6298621,
-          38.9413942
-        ]
-      },
-      "properties": {
-        "name": "Pitch Forked Dog",
-        "source": "crawler",
-        "type:normalized": "Fantasmas",
-        "area:normalized": "Woodyates",
-        "type:original_category": "Shucks and Hell Hounds",
-        "description": "A farmhand discovered a dog laying in the hay - he poked it with his pitchfork, causing the entity to vanish. The sound of a coach has also been heard as it stops by the front of the house, though nothing is seen.",
-        "date": "Unknown",
-        "location_name": "West Woodyates (Dorset) - Manor",
         "crawler_type_field": "Shuck"
       }
     },
@@ -101759,27 +100315,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.3757665,
-          33.9825358
-        ]
-      },
-      "properties": {
-        "name": "Waiting Woman",
-        "source": "crawler",
-        "type:normalized": "Outros",
-        "area:normalized": "Belaugh",
-        "type:original_category": "Women in White",
-        "description": "A woman in a white dress is said to wait for her Viking lover by the riverside.",
-        "date": "24 August (reoccurring)",
-        "location_name": "Belaugh (Norfolk) - Riverside",
-        "crawler_type_field": "Legend"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.8831954999999999,
           51.1929124
         ]
@@ -107610,27 +106145,6 @@
         "description": "Rumoured to have been buried alive by her cruel husband who (incorrectly) believed she was having an affair, this white lady was once said to walk the castle and the surrounding area.",
         "date": "Unknown",
         "location_name": "St Athan (South Glamorgan) - Area around site of West Orchard castle",
-        "crawler_type_field": "Haunting Manifestation"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.2292379,
-          49.2450965
-        ]
-      },
-      "properties": {
-        "name": "White Woman",
-        "source": "crawler",
-        "type:normalized": "Outros",
-        "area:normalized": "St Ouen",
-        "type:original_category": "Women in White",
-        "description": "La blianche femme, or white woman, is reputed to haunt this road. She gave chase to a local man in 1900, who had to take shelter in a house close by.",
-        "date": "1900",
-        "location_name": "St Ouen (Jersey) - Rue a la Pendue",
         "crawler_type_field": "Haunting Manifestation"
       }
     },
